@@ -71,10 +71,73 @@
           </nav>
     </header>
     <main>
-        <h1>
-          Gestión de Clientes
-        </h1>
-    </main>
+        <section class="movies--list--section container-fluid">
+          <h1 class="movies--list--section__title text-center fs-3 text-uppercase pt-3">Gestión de Clientes</h1>
+          <form class="row g-3 mt-3 busqueda-section">
+  
+            <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label">Nro. DNI:</label>
+                </div>
+                <div class="col-auto">
+                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                </div>
+              </div>
+
+              <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label">Apellido Paterno:</label>
+                </div>
+                <div class="col-auto">
+                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                </div>
+              </div> 
+  
+              <div class="col-2 col-sm-auto">
+                <button type="submit" class="btn btn-secondary mb-3 movies--list--section__button">
+                    <i class="bi bi-search"></i>
+                    Buscar</button>
+            </div>
+  
+            </form>
+  
+            <div class="table--container container">
+              <table class="table text-center movie--list table-striped"">
+                  <thead>
+                    <tr>
+                      <th scope="col">Código</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Apellido Paterno</th>
+                      <th scope="col">Apellido Materno</th>
+                      <th scope="col">DNI</th>
+  
+                      <th scope="col" class="movie--list__edit-column">Editar</th>
+                      <th scope="col">Eliminar</th>
+  
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <th scope="col">001</th>
+                    <th scope="col">Ale</th>
+                    <th scope="col">Valcarcel</th>
+                    <th scope="col">Diaz</th>
+                    <th scope="col">76564566</th>
+  
+                    <td>
+                      <a href=""><i class="bi bi-pencil-square movie--list__edit-icon"></i></a>
+                  </td>
+                  <td>
+                      <a href=""><i class="bi bi-trash3-fill movie--list__delete-icon"></i></a>
+                  </td>
+                    
+                  </tbody>
+                </table>
+            </div>
+            
+  
+  
+      </section>
+      </main>
     <footer class="footer-container">
         <section class="container">
             <div class="row links-container" style="width:100%">
