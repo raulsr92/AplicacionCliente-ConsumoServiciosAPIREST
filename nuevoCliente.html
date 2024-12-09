@@ -71,9 +71,30 @@
           </nav>
     </header>
     <main>
-        <h1>
-          Nuevo Cliente
-        </h1>
+        <div class="container d-flex justify-content-center align-items-center vh-120">
+          <div class="card p-4 shadow-lg" style="width: 100%; max-width: 850px;">
+            <h1 class="text-center mb-4 text-uppercase">Registro de Cliente</h1>
+            <form>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+              </div>
+              <div class="mb-3">
+                <label for="apellidoPaterno" class="form-label">Apellido Paterno</label>
+                <input type="text" class="form-control" id="apellidoPaterno" placeholder="Ingresa tu apellido paterno" required>
+              </div>
+              <div class="mb-3">
+                <label for="apellidoMaterno" class="form-label">Apellido Materno</label>
+                <input type="text" class="form-control" id="apellidoMaterno" placeholder="Ingresa tu apellido materno" required>
+              </div>
+              <div class="mb-3">
+                <label for="dni" class="form-label">DNI</label>
+                <input type="text" class="form-control" id="dni" placeholder="Ingresa tu DNI" maxlength="8" required>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Registrar</button>
+            </form>
+          </div>
+        </div>
     </main>
     <footer class="footer-container">
         <section class="container">
