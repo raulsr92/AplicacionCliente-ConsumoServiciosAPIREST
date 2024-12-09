@@ -71,38 +71,38 @@
           </nav>
     </header>
     <main>
-        <section class="movies--list--section container-fluid">
+        <section class="movies--list--section container">
           <h1 class="movies--list--section__title text-center fs-3 text-uppercase pt-3">Gestión de Clientes</h1>
           <form class="row g-3 mt-3 busqueda-section">
   
-            <div class="row g-3 align-items-center">
+            <div class="col-5 g-3 align-items-center busqueda-section-item">
                 <div class="col-auto">
                   <label for="inputPassword6" class="col-form-label">Nro. DNI:</label>
                 </div>
                 <div class="col-auto">
-                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                  <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                 </div>
               </div>
 
-              <div class="row g-3 align-items-center">
+              <div class="col-5 g-3 align-items-center busqueda-section-item">
                 <div class="col-auto">
                   <label for="inputPassword6" class="col-form-label">Apellido Paterno:</label>
                 </div>
                 <div class="col-auto">
-                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                  <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                 </div>
               </div> 
   
-              <div class="col-2 col-sm-auto">
-                <button type="submit" class="btn btn-secondary mb-3 movies--list--section__button">
-                    <i class="bi bi-search"></i>
+              <div class="col-2 busqueda-section-item">
+                <button type="submit" class="btn btn-secondary mb-3 movies--list--section__button main--button">
+                    <i class="bi bi-search icon-button"></i>
                     Buscar</button>
             </div>
   
-            </form>
+          </form>
   
-            <div class="table--container container">
-              <table class="table text-center movie--list table-striped"">
+          <div class="table--container container">
+              <table class="table text-center movie--list  table-borderless table-striped main--table">
                   <thead>
                     <tr>
                       <th scope="col">Código</th>
@@ -117,22 +117,61 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <th scope="col">001</th>
-                    <th scope="col">Ale</th>
-                    <th scope="col">Valcarcel</th>
-                    <th scope="col">Diaz</th>
-                    <th scope="col">76564566</th>
-  
-                    <td>
-                      <a href=""><i class="bi bi-pencil-square movie--list__edit-icon"></i></a>
-                  </td>
-                  <td>
-                      <a href=""><i class="bi bi-trash3-fill movie--list__delete-icon"></i></a>
-                  </td>
-                    
+                    <tr>
+                      <td scope="col">001</td>
+                      <td scope="col">Ale</td>
+                      <td scope="col">Valcarcel</td>
+                      <td scope="col">Diaz</td>
+                      <td scope="col">76564566</td>
+    
+                      <td>
+                        <a href=""><i class="bi bi-pencil-square movie--list__edit-icon main-icons"></i></a>
+                      </td>
+                       <td>
+                        <a href=""><i class="bi bi-trash3-fill movie--list__delete-icon main-icons"></i></a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td scope="col">001</td>
+                      <td scope="col">Ale</td>
+                      <td scope="col">Valcarcel</td>
+                      <td scope="col">Diaz</td>
+                      <td scope="col">76564566</td>
+    
+                      <td>
+                        <a href=""><i class="bi bi-pencil-square movie--list__edit-icon main-icons"></i></a>
+                      </td>
+                       <td>
+                        <a href=""><i class="bi bi-trash3-fill movie--list__delete-icon main-icons"></i></a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td scope="col">001</td>
+                      <td scope="col">Ale</td>
+                      <td scope="col">Valcarcel</td>
+                      <td scope="col">Diaz</td>
+                      <td scope="col">76564566</td>
+    
+                      <td>
+                        <a href=""><i class="bi bi-pencil-square movie--list__edit-icon main-icons"></i></a>
+                      </td>
+                       <td>
+                        <a href=""><i class="bi bi-trash3-fill movie--list__delete-icon main-icons"></i></a>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
-            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <button type="submit" class="col-2 btn btn-secondary mb-3 movies--list--section__button main--button">
+              <i class="bi bi-person-fill-add icon-button"></i>
+              Nuevo</button>
+          </div>
+
+
             
   
   
