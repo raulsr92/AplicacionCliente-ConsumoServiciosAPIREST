@@ -134,7 +134,7 @@ header, nav{
 
 main{
     padding: 80px 0;
-    background-image: url(/images/mall.jpg);
+    background-image: url(../images/mall.jpg);
     background-repeat: no-repeat;
     background-position: center !important;
     background-size: cover;
