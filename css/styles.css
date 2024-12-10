@@ -13,6 +13,7 @@
 
 .main--button{
     background-color: #AB4459;
+    color: white;
     border: 0;
     text-transform: uppercase;
     padding: 9px 24px;
@@ -55,6 +56,10 @@ header, nav{
 .navbar-list li a{
     color: #F29F58;
     text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: whitesmoke;
 }
 
 /* ==================================================  Footer*/
